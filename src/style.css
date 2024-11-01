@@ -1,0 +1,52 @@
+body{
+  background:black;
+}
+.container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:black;
+  flex-direction:row;
+  margin-top:200px;
+}
+.diya{
+  display:flex;
+  flex-direction:row;
+  width:220px;
+  margin-top:75px;
+  z-index:1;
+}
+.diya-left{  
+  background:#9D452F;
+  width:80px;
+  height:65px;
+  border-radius:8px 0px 0px 100%;
+  border-top:8px solid #5D351F;
+}
+.diya-right{  
+  background:#9D452F;
+  width:140px;
+  height:65px;
+  border-radius:0px 8px 100% 0px;
+  border-top:8px solid #5D351F;
+  margin-left:-2px;
+}
+.diya-top{
+  width:210px;
+  height:15px;
+  border-radius:50%;
+  border:8px solid #5D351F;
+  border-top:10px solid #5D351F; 
+  background:linear-gradient(to right,#591900,#BA3E22,#F56F2D);
+  position:absolute;
+  margin-top:-12px;
+  margin-left:-4px;
+}
+.flame{
+  display:flex;
+  position:relative;
+  margin-top:-55px;
+  margin-left:-20px;
+}
+.thread{
+  background:#85450C;
